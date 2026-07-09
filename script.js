@@ -178,6 +178,7 @@ const projectData = {
       'Award-winning innovative solution',
     ],
     tech: 'Technologies: Arduino, NodeMCU (ESP8266), Wireless Power Transfer Coils, IoT Dashboard, MATLAB, Simulink',
+    repo: 'https://github.com/nisha0911-gif/IOT-Enabled-Wireless-Power-Transmission-for-Electric-Vehcile',
     images: ['images/images/ev.jpg', 'images/images/ev.jpg'],
   },
   wearable: {
@@ -193,6 +194,7 @@ const projectData = {
       'Portable wearable solution',
     ],
     tech: 'Technologies: Arduino, NodeMCU (ESP8266), Health Sensors, Arduino IDE, IoT Platform',
+    repo: 'https://github.com/nisha0911-gif/Wearable-Device-for-blood-blockage-in-early-stages',
     images: ['images/images/wearable.jpg', 'images/images/wearable.jpg'],
   },
   approval: {
@@ -208,7 +210,24 @@ const projectData = {
       'Digital record management',
     ],
     tech: 'Technologies: HTML, CSS, JavaScript, Java, MySQL, VS Code, GitHub',
+    repo: 'https://github.com/nisha0911-gif/Digital-Approval-System',
     images: ['images/images/approval.jpg', 'images/images/approval.jpg'],
+  },
+  netflix: {
+    category: 'Data Analysis Project | SQL & Power BI',
+    title: 'Netflix Data Analysis',
+    description:
+      'An end-to-end Netflix Data Analysis project using SQL and Power BI, featuring data cleaning, exploratory analysis, and an interactive dashboard to visualize content trends, genres, ratings, countries, and release patterns.',
+    highlights: [
+      'Cleaned and transformed raw Netflix data using SQL',
+      'Performed exploratory data analysis to identify trends and patterns',
+      'Built an interactive Power BI dashboard with dynamic filters and slicers',
+      'Visualized KPIs such as total titles, movies vs TV shows, ratings distribution, top genres, top countries, and year-wise releases',
+      'Generated actionable insights into Netflix content library and audience preferences',
+    ],
+    tech: 'Tools & Technologies: SQL (MySQL), Power BI, DAX, Power Query, Data Visualization',
+    repo: 'https://github.com/nisha0911-gif/Netflix-Data-Analysis',
+    images: ['images/images/Netflix.jpg', 'images/images/Netflix.jpg'],
   },
 };
 
@@ -251,11 +270,11 @@ function setupTypewriter() {
   const phrases = [
     { text: 'Passionate Software Developer', color: '#38bdf8' },
     { text: 'Aspiring Java Developer', color: '#a855f7' },
-    { text: 'Data Analytics', color: '#f472b6' },
+    { text: 'Data Analyst', color: '#f472b6' },
   ];
-  const typingSpeed = 80;
-  const deletingSpeed = 50;
-  const pauseDelay = 2000;
+  const typingSpeed = 70;
+  const deletingSpeed = 45;
+  const pauseDelay = 1800;
   let phraseIndex = 0;
   let charIndex = 0;
   let isDeleting = false;
@@ -305,6 +324,13 @@ function openModal(projectKey) {
   modalDescription.textContent = project.description;
   modalHighlights.innerHTML = project.highlights.map((highlight) => `<li>${highlight}</li>`).join('');
   modalTech.textContent = project.tech;
+  const modalRepoLink = document.getElementById('modal-repo-link');
+  if (modalRepoLink && project.repo) {
+    modalRepoLink.href = project.repo;
+    modalRepoLink.style.display = 'inline-block';
+  } else if (modalRepoLink) {
+    modalRepoLink.style.display = 'none';
+  }
 
   if (modalGallery) {
     modalGallery.innerHTML = images
