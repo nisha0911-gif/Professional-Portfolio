@@ -1,107 +1,62 @@
-# 🌐 Personal Portfolio Website
+=========================================================
+            NISHA SUBRAMANI - PERSONAL PORTFOLIO
+=========================================================
 
-A modern and responsive personal portfolio website built to showcase my skills, projects, achievements, and career journey as a software developer.
+Welcome to my Personal Portfolio Website!
 
-## 🚀 Live Demo
+This portfolio showcases my skills, projects, education, and achievements as a Software Developer. It has been designed with a modern, responsive interface to provide recruiters and visitors with a comprehensive overview of my technical expertise and development experience.
 
-🔗 https://professional-portfolio-delta-nine.vercel.app/
-
----
-
-## 📌 Features
-
-- Responsive design for desktop, tablet, and mobile
-- Professional introduction section
-- About Me
-- Technical Skills
-- Projects showcase
-- Education details
-- Contact section
-- Smooth navigation
-- Modern UI with animations
-
----
-
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
-- Git
-- GitHub
-- Vercel
-
----
-
-## 📂 Projects Included
-
-- Digital Approval System
-- Netflix Data Analysis
-- SignEcho
-- Wireless Power Transfer for Electric Vehicles
-
----
-
-## 📷 Portfolio Preview
-
-Visit the live website:
-
+---------------------------------------------------------
+LIVE WEBSITE
+---------------------------------------------------------
 https://professional-portfolio-delta-nine.vercel.app/
 
----
+---------------------------------------------------------
+FEATURES
+---------------------------------------------------------
+• Responsive and user-friendly design
+• Professional introduction
+• About Me section
+• Technical Skills
+• Project Showcase
+• Education Details
+• Contact Information
+• Smooth navigation and interactive UI
 
-## 🚀 Getting Started
+---------------------------------------------------------
+TECHNOLOGIES USED
+---------------------------------------------------------
+• HTML5
+• CSS3
+• JavaScript
+• Git
+• GitHub
+• Vercel
 
-### Clone the repository
+---------------------------------------------------------
+PROJECTS
+---------------------------------------------------------
+• Digital Approval System
+• Netflix Data Analysis
+• SignEcho
+• Wireless Power Transfer for Electric Vehicles
+• Personal Portfolio Website
 
-```bash
-git clone https://github.com/your-username/your-repository.git
-```
+---------------------------------------------------------
+PURPOSE
+---------------------------------------------------------
+This portfolio was created to present my software development skills, projects, and learning journey in a professional manner. It serves as a central platform for recruiters and collaborators to explore my work and technical capabilities.
 
-### Open the project
+---------------------------------------------------------
+GITHUB
+---------------------------------------------------------
+https://github.com/nisha0911-gif
 
-Open `index.html` in your browser.
+---------------------------------------------------------
+THANK YOU
+---------------------------------------------------------
+Thank you for visiting my portfolio. I appreciate your time and interest. Feedback and collaboration opportunities are always welcome.
 
----
-
-## 📁 Project Structure
-
-```
-Portfolio/
-│── index.html
-│── style.css
-│── script.js
-│── assets/
-│── images/
-└── README.md
-```
-
----
-
-## 🎯 Purpose
-
-This portfolio serves as a central place to showcase my:
-
-- Skills
-- Projects
-- Education
-- Achievements
-- Career Interests
-
-It is designed to provide recruiters and hiring managers with a quick overview of my technical expertise and software development projects.
-
----
-
-## 📬 Contact
-
-**Nisha Subramani**
-
-- 📧 Email: your-email@example.com
-- 💼 LinkedIn: Add your LinkedIn URL
-- 🐙 GitHub: https://github.com/nisha0911-gif
-
----
-
-## ⭐ If you like this project
-
-Give it a ⭐ on GitHub if you found it helpful or inspiring.
+=========================================================
+                 Developed by Nisha Subramani
+=========================================================
